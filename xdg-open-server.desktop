@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=xdg-open-server
+Type=Application
+Exec=xdg-open-server
+NoDisplay=true
