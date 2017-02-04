@@ -6,7 +6,7 @@ This tool might be useful with Docker containers.
 
 ## Building and Installing
 
-Run `make && sudo make install` to install application.
+Run `./autogen && ./configure --prefix=/usr/local --sysconfdir=/etc && make && sudo make install` to install the application.
 
 The application will be started with your XDG-compliant desktop environment.
 
