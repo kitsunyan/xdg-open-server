@@ -8,6 +8,8 @@ This tool might be useful with Docker containers.
 
 Run `./autogen && ./configure --prefix=/usr/local --sysconfdir=/etc && make && sudo make install` to install the application.
 
+Pacman-based distributions users can make a package using provided `PKGBUILD` file.
+
 The application will be started with your XDG-compliant desktop environment.
 
 ## Using with Docker Containers
