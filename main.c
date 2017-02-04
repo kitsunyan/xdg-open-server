@@ -40,6 +40,11 @@ static void * threadf(void * data) {
 		int bytes = recvfrom(fd, buffer, buffer_size - 1, 0, (struct sockaddr *) &client_addr, &length);
 		if (bytes > 0) {
 			buffer[bytes] = '\0';
+			char * substr = strchr(buffer, '\n');
+			if (substr != 0) {
+				int index = substr - buffer;
+				buffer[index] = '\0';
+			}
 			run("xdg-open", buffer);
 		}
 	}
