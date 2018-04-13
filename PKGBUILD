@@ -1,10 +1,11 @@
 pkgname=xdg-open-server
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="xdg-open portal for Docker containers"
 arch=('i686' 'x86_64')
 license=('MIT')
 depends=('libx11' 'xdg-utils')
+optdepends=('socat: xdg-open.sh client script support')
 source=('git://github.com/kitsunyan/xdg-open-server.git')
 sha256sums=('SKIP')
 

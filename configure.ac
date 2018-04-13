@@ -1,4 +1,4 @@
-AC_INIT([xdg-open-server],[1.0])
+AC_INIT([xdg-open-server],[1.1])
 
 AC_CONFIG_FILES([Makefile])
 AC_PREFIX_DEFAULT([/usr/local])
