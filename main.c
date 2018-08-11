@@ -45,7 +45,7 @@ static void * threadf(void * data) {
 			}
 
 			if (!fork()) {
-				execlp("xdg-open", "xdg-open", buffer);
+				execlp("xdg-open", "xdg-open", buffer, NULL);
 				exit(1);
 			}
 		}
