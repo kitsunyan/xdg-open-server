@@ -1,5 +1,5 @@
 pkgname=xdg-open-server
-pkgver=1.2
+pkgver=1.3
 pkgrel=1
 pkgdesc='xdg-open portal for Docker containers'
 arch=('i686' 'x86_64')
